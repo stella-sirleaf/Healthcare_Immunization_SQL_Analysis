@@ -1,73 +1,34 @@
-# Healthcare_Immunization_SQL_Analysis
-SQL Healthcare Analytics Capstone analyzing immunization programme performance across Asia using PostgreSQL and pgAdmin 4.
-
+Healthcare Analysis SQL Capstone
 Project Overview
 
-This project analyzes immunization programme performance across Asian countries using SQL. The objective was to answer key public health business questions by querying relational data stored in PostgreSQL.
+This project analyzes immunization program performance across Asia using SQL. The objective was to answer real healthcare business questions by querying vaccination data, identifying trends, and generating insights that can support public health decision-making.
 
 Tools Used
+SQL
 PostgreSQL
 pgAdmin 4
-SQL
-Dataset
-
-The project uses two related tables.
-
-Countries
-
-Contains:
-
-Country ID
-Country Name
-Region
-Population (Millions)
-Immunization Records
-
-Contains:
-
-Record ID
-Country ID
-Vaccine Name
-Vaccinations Given
-Report Year
-
-The tables are linked through country_id.
-
+Microsoft Excel (Data Visualizations)
 Business Questions
-
-The project answers the following questions:
-
 Which vaccine was administered the most?
 Which countries administered the highest number of vaccinations?
 Which regions administered more than 500,000 vaccine doses?
 Which vaccine was administered the least?
-Which countries recorded the highest average number of vaccinations per report?
-
-SQL Skills Demonstrated
-SELECT
+Which countries recorded the highest average vaccinations per report?
+Skills Demonstrated
+Data Retrieval
 INNER JOIN
 GROUP BY
-SUM()
-AVG()
-HAVING
+Aggregate Functions (SUM & AVG)
 ORDER BY
-LIMIT
-Key Insights
-Influenza recorded the highest vaccination count.
-SQL joins were used to combine country information with immunization records.
-Aggregate functions identified high-performing countries and regions.
-The analysis demonstrates how SQL supports evidence-based public health decision-making.
-Project Structure
-Healthcare_Immunization_SQL_Analysis/
-│
-├── Immunization_Programme_Capstone.sql
-├── Healthcare_Analysis_SQL_Capstone.pdf
-├── README.md
-└── Images/
-
-
-Author
-
-Stella Sirleaf
-
-Healthcare Data Analytics Portfolio
+HAVING
+Business Insight Generation
+Data Visualization
+Key Highlights
+Developed SQL queries to answer five healthcare business questions.
+Created professional charts to visualize vaccination trends.
+Generated business insights and recommendations based on query results.
+Presented findings in a structured capstone presentation.
+Files
+Updated SQL Capstone Presentation (PDF)
+SQL Queries
+Presentation Slides
